@@ -1,0 +1,41 @@
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 23px 0;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 16px;
+}
+
+.header__basket {
+  margin-left: 16px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    gap: 16px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    display: none;
+  }
+}

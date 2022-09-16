@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('./vendor/normalize.css');
+@import url('./header.css');
+@import url('./banner.css');
+@import url('./info.css');
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  padding-bottom: 112px;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding-bottom: 60px;
+  }
+}
