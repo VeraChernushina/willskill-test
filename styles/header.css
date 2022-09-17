@@ -26,6 +26,11 @@
 .header__menu_desktop a {
   text-decoration: none;
   color: #fff;
+  transition: 0.3s ease;
+}
+
+.header__menu_desktop a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1000px) {
