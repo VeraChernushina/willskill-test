@@ -18,24 +18,37 @@
   margin-left: 16px;
 }
 
-nav {
+.header__menu_desktop {
   display: flex;
   gap: 40px;
 }
 
+.header__menu_desktop a {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 1000px) {
-  nav {
+  .header__menu_desktop {
     gap: 16px;
     align-items: center;
   }
 }
 
 @media screen and (max-width: 768px) {
-  
+  .header__menu_desktop {
+    display: none;
+  }
+
+  .header__logo {
+    margin: 0;
+  }
+
+  .header__basket {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .header {
-    display: none;
-  }
+
 }
