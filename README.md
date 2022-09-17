@@ -1,4 +1,4 @@
 # WillSkill Test
 ## Лэндинг Nootris - тестовое задание для WillSkill
 
-Демо:
+Демо: https://verachernushina.github.io/willskill-test/
